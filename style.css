@@ -1,0 +1,128 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    justify-content: center;
+    margin-top:100px;
+    display:flex;
+}
+
+.karta {
+    display:flex;
+    height: 800px;
+    width:400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid black;
+    background-color: rgb(82, 82, 82);
+    border-radius: 20px;
+
+}
+
+
+.obrazki {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+    margin-bottom: 50px;
+ 
+   
+
+
+}
+.obrazek1 {
+    height: 250px;
+    width: 175px;
+    margin: 0 auto;
+    border:solid black;
+    background-size: cover;
+    
+    border-radius: 10px;background-image: url("https://img.ltwebstatic.com/images3_pi/2021/11/09/1636449248c3931ba36ef436299ae11c365b996558_thumbnail_600x.webp");
+  }
+
+  .obrazek2 {
+    height: 250px;
+    width: 175px;
+    margin: 0 auto;
+    border:solid black;
+    background-size: cover;
+  
+    border-radius: 10px;background-image: url("https://img.ltwebstatic.com/images3_pi/2021/11/04/1636006335fb1b18ec60e829e38b65b8db8531b5f6_thumbnail_600x.webp");
+  }
+
+  .tekst {
+    background-color: rgb(201, 201, 201);
+    margin: 0 auto;
+    width: 90%;
+    border:solid black;
+    border-radius: 10px;
+  }
+
+  .tytul {
+    text-align: center;
+    padding:10px;
+  }
+
+  .podtytul {
+    text-align: center;
+    padding:10px;
+    margin-bottom: 10px;
+  }
+
+  .cena{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:30px;
+    
+  
+   
+    text-align: center;
+    border:solid black;
+    border-radius: 20px;
+    background-color: rgb(201, 201, 201);
+
+  }
+
+  .cena2 {
+   font-size: 40px;
+  }
+
+  
+
+  .gwiazdki {
+    display:flex;
+    align-items: flex-end;
+    margin-top:10px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+
+   
+
+  }
+  .gwiazdka1 {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    background-size: cover;
+    margin-bottom: 20px;
+    
+    
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1828/1828884.png");
+  }
+
+  .dol {
+    display: flex; 
+align-items: flex-end;
+justify-content: space-between;
+
+width: 100%;
+  }
+
+  .gwiazdka1:hover {
+    
+    margin: 20px;
+    border: solid black;
+    border-radius: 10px;
+  }
